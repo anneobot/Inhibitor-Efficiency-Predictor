@@ -396,9 +396,6 @@ Nigeria.
 |---|---|---|
 | Supervisor | Dr Ekerete Jackson Boekom, Associate Professor | Chemistry, Physical Sciences |
 | Co-supervisor | Prof. Philip Asuquo | Computer Engineering, Engineering |
-| Internal examiner | Prof. Daniel Ekpenyong Asuquo | Information Systems / Computing |
-| Head of Department and Chief Examiner | Prof. Godwin Asuquo Ebong | Chemistry, Physical Sciences |
-| External examiner | Prof. Anthony Ikechukwu Obike | Pure and Industrial Chemistry, Abia State University |
 
 ### Acknowledgements
 
