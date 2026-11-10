@@ -1,0 +1,110 @@
+cff-version: 1.2.0
+title: >-
+  Inhibitor Efficiency Predictor: a condition-aware QSPR framework for
+  organic corrosion inhibition efficiency
+message: >-
+  If you use this repository, its corpus or its figures, please cite the
+  doctoral thesis below, and also credit the three source databases listed
+  under references.
+type: software
+authors:
+  - family-names: Obot
+    given-names: Anne Sylvanus
+    affiliation: Department of Chemistry, University of Uyo, Akwa Ibom State, Nigeria
+repository-code: https://github.com/anneobot/Inhibitor-Efficiency-Predictor
+url: http://inhibiepredict.com
+abstract: >-
+  Research artefacts for a quantitative structure-property relationship study
+  predicting the corrosion inhibition efficiency of organic molecules from
+  molecular structure together with the experimental conditions under which
+  inhibition is measured. The corpus comprises 8,359 measurements of 1,050
+  molecules across four base metals, harmonised from three public databases.
+  Fifteen model configurations spanning five families were benchmarked on
+  identical folds under three partitioning schemes. Under the row-wise
+  cross-validation convention prevailing in this literature, 94.5 per cent of
+  validation molecules had already been seen in training; correcting this
+  reduces explained variance by a mean of 0.310. Scored on molecules absent
+  from training the leading models reach R-squared 0.461, and 0.398 when the
+  Bemis-Murcko scaffold is absent too. The experimental conditions contribute
+  more explained variance than the molecular structure alone.
+keywords:
+  - corrosion inhibition
+  - QSPR
+  - machine learning
+  - data leakage
+  - scaffold split
+  - conformal prediction
+  - explainable artificial intelligence
+  - molecular descriptors
+  - cheminformatics
+license: MIT
+license-url: https://github.com/anneobot/Inhibitor-Efficiency-Predictor/blob/main/LICENSE
+version: 1.0.0
+date-released: '2026-11-10'
+preferred-citation:
+  type: thesis
+  title: >-
+    Integrating Artificial Intelligence (AI) with Quantum Mechanics for
+    Predictive Modelling of Corrosion Inhibition Process of Some Metals
+  authors:
+    - family-names: Obot
+      given-names: Anne Sylvanus
+  thesis-type: Doctoral thesis
+  institution:
+    name: University of Uyo, Department of Chemistry
+  year: 2026
+  month: 10
+references:
+  - type: article
+    title: >-
+      CORDATA: An open data management web application to select corrosion
+      inhibitors
+    authors:
+      - family-names: Galvão
+        given-names: Tiago L. P.
+      - family-names: Ferreira
+        given-names: Inês
+      - family-names: Kuznetsova
+        given-names: Alena
+      - family-names: Rocha
+        given-names: Alexandre B.
+      - family-names: Tedim
+        given-names: João
+      - family-names: Ferreira
+        given-names: Mário G. S.
+    journal: npj Materials Degradation
+    volume: 6
+    start: 48
+    year: 2022
+    doi: 10.1038/s41529-022-00259-9
+    notes: Source database for the harmonised corpus.
+  - type: software
+    title: 'ExCorr: An interactive corrosion inhibitor database'
+    authors:
+      - family-names: Würger
+        given-names: Tim
+    institution:
+      name: Helmholtz-Zentrum Hereon
+    url: https://excorr.web.app
+    notes: Source database for the harmonised corpus.
+  - type: article
+    title: >-
+      Inhibitor_Mol_VAE: A variational autoencoder approach for generating
+      corrosion inhibitor molecules
+    authors:
+      - family-names: Gong
+        given-names: Hao
+      - family-names: Fu
+        given-names: Zhen
+      - family-names: Ma
+        given-names: Lingwei
+      - family-names: Zhang
+        given-names: Dawei
+    journal: npj Materials Degradation
+    volume: 8
+    issue: 1
+    start: 102
+    year: 2024
+    notes: >-
+      Source of the Inhibitor 1368 dataset, and the published protocol
+      reproduced and re-evaluated under molecule-grouped cross-validation.

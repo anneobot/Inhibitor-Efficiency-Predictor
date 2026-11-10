@@ -1,0 +1,13 @@
+study,target,corpus,protocol,model,r2
+Gong et al. 2024 (npj Mater. Degrad.),IE %,"1,364 rows / 455 mol, 1 metal","5-fold, row-wise",random forest,0.644
+"Gong et al. 2024, corrected here",IE %,"1,364 rows / 455 mol, 1 metal","5-fold, grouped",random forest,0.379
+Ekeocha et al. 2024 (via Riyaz 2025),IE %,50 benzimidazoles,cross-validation,random forest,0.512
+Ekeocha et al. 2024 (via Riyaz 2025),IE %,50 benzimidazoles,cross-validation,gradient boosting,0.591
+Dai et al. 2022 (via Riyaz 2025),IE,inhibitor set,"10-fold, row-wise",random forest,0.34
+Dai et al. 2022 (via Riyaz 2025),IE,inhibitor set,"10-fold, row-wise",DMPNN (graph),0.46
+Pham et al. 2024 (via Riyaz 2025),IE %,not stated,not stated,ensemble,0.72
+Schwaller et al. 2020 (Yield-BERT),yield %,"3,955 plate reactions",10 x random 70/30,BERT + regression,0.951
+Schwaller et al. 2020 (Yield-BERT),yield %,500k patent reactions,random split,BERT + regression,0.195
+Li et al. 2023 (GraphRXN),ratio,"1,558 in-house reactions","5-fold, random",communicative MPNN,0.712
+"this study, best model",IE %,"8,359 rows / 1,050 mol, 4 metals","5-fold, row-wise (control)",xgboost,0.812
+"this study, best model",IE %,"8,359 rows / 1,050 mol, 4 metals","5-fold, grouped by molecule",xgboost,0.464

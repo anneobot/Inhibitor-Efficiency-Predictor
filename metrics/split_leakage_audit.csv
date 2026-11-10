@@ -1,0 +1,16 @@
+scheme,fold,train_rows,test_rows,test_molecules,seen_in_training,pct_seen
+naive_row,0,6687,1672,663,623,94.0
+naive_row,1,6687,1672,666,624,93.7
+naive_row,2,6687,1672,671,626,93.3
+naive_row,3,6687,1672,668,641,96.0
+naive_row,4,6688,1671,682,651,95.5
+grouped_molecule,0,6687,1672,209,0,0.0
+grouped_molecule,1,6687,1672,210,0,0.0
+grouped_molecule,2,6687,1672,210,0,0.0
+grouped_molecule,3,6687,1672,211,0,0.0
+grouped_molecule,4,6688,1671,210,0,0.0
+scaffold,0,6569,1790,188,0,0.0
+scaffold,1,6716,1643,247,0,0.0
+scaffold,2,6717,1642,199,0,0.0
+scaffold,3,6717,1642,200,0,0.0
+scaffold,4,6717,1642,216,0,0.0

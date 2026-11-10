@@ -1,0 +1,4 @@
+dataset,rows_in,rows_after_parse_tgt,rows_clipped
+inhibitor1368,1364,1364,0
+datacor_al,5000,4224,0
+excorr,4616,4609,359

@@ -1,0 +1,8 @@
+{
+  "best_model": "random_forest",
+  "best_value": 0.3991397231961678,
+  "best_params": {
+    "n_estimators": 250,
+    "max_depth": 31
+  }
+}

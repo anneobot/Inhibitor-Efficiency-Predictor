@@ -1,0 +1,16 @@
+model_a,model_b,MAE_a,MAE_b,p_value,significant_at_0.05
+xgboost,random_forest,15.67,15.654,0.20132,False
+xgboost,hybrid_h1_graph_gbm,15.67,15.829,0.64106,False
+xgboost,grad_boost,15.67,16.576,0.0,True
+xgboost,svr_rbf,15.67,16.5,0.0,True
+xgboost,hybrid_h2_chemberta_gbm,15.67,16.821,0.0,True
+random_forest,hybrid_h1_graph_gbm,15.654,15.829,0.72452,False
+random_forest,grad_boost,15.654,16.576,0.0,True
+random_forest,svr_rbf,15.654,16.5,0.0,True
+random_forest,hybrid_h2_chemberta_gbm,15.654,16.821,0.0,True
+hybrid_h1_graph_gbm,grad_boost,15.829,16.576,0.0,True
+hybrid_h1_graph_gbm,svr_rbf,15.829,16.5,0.0,True
+hybrid_h1_graph_gbm,hybrid_h2_chemberta_gbm,15.829,16.821,0.0,True
+grad_boost,svr_rbf,16.576,16.5,0.50659,False
+grad_boost,hybrid_h2_chemberta_gbm,16.576,16.821,0.48045,False
+svr_rbf,hybrid_h2_chemberta_gbm,16.5,16.821,0.11342,False

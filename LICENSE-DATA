@@ -1,0 +1,57 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Anne Sylvanus Obot
+
+WHAT THIS COVERS
+
+This licence applies to the non-software contents of this repository:
+
+  data/        the harmonised corpus, fold indices, descriptor names, audit
+  metrics/     the result tables
+  figures/     all twenty-five figures
+  provenance/  the run manifest and runtime specification
+  docs/        the documentation
+  README.md    and the sub-READMEs
+
+Source code and the notebook are licensed separately under the MIT License;
+see LICENSE.
+
+THE LICENCE
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided you give appropriate credit, provide a link to the
+licence, and indicate if changes were made.
+
+Full legal text: https://creativecommons.org/licenses/by/4.0/legalcode
+Summary:         https://creativecommons.org/licenses/by/4.0/
+
+ATTRIBUTION
+
+  Obot, A. S. (2026). Integrating artificial intelligence (AI) with quantum
+  mechanics for predictive modelling of corrosion inhibition process of some
+  metals [Doctoral thesis, University of Uyo].
+  https://github.com/anneobot/Inhibitor-Efficiency-Predictor
+
+UPSTREAM RIGHTS IN THE CORPUS
+
+data/master_table.csv is a DERIVED work. It was assembled by harmonising and
+deduplicating records from three public databases; the underlying measurements
+belong to those databases and, through them, to the primary publications they
+compile. This licence covers the harmonisation, the schema, the derived pH
+values and the deduplication - not the original measurements.
+
+Anyone reusing the corpus must also credit the sources:
+
+  Galvao, T. L. P., Ferreira, I., Kuznetsova, A., Rocha, A. B., Tedim, J., &
+  Ferreira, M. G. S. (2022). CORDATA: An open data management web application
+  to select corrosion inhibitors. npj Materials Degradation, 6, 48.
+  https://doi.org/10.1038/s41529-022-00259-9
+
+  Wurger, T. (n.d.). ExCorr: An interactive corrosion inhibitor database
+  [Web application]. Helmholtz-Zentrum Hereon. https://excorr.web.app
+
+  Gong, H., Fu, Z., Ma, L., & Zhang, D. (2024). Inhibitor_Mol_VAE: A
+  variational autoencoder approach for generating corrosion inhibitor
+  molecules. npj Materials Degradation, 8(1), 102.
+
+Consult each source's own terms before redistribution.

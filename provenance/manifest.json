@@ -1,0 +1,282 @@
+{
+  "created_utc": "2026-09-23T13:47:52.150728Z",
+  "seed": 42,
+  "device": "cuda",
+  "artefacts": [
+    {
+      "path": "logs/runtime_spec.json",
+      "kind": "log",
+      "note": "Runtime specification"
+    },
+    {
+      "path": "figures/fig01_target_distributions_raw.png",
+      "kind": "figure",
+      "note": "Raw target distributions across the three datasets"
+    },
+    {
+      "path": "figures/fig02_missingness_inh1368.png",
+      "kind": "figure",
+      "note": "Missingness map for Inhibitor 1368 quantum descriptors"
+    },
+    {
+      "path": "figures/fig_ph_validation.png",
+      "kind": "figure",
+      "note": "pH derivation validated against reported values"
+    },
+    {
+      "path": "data/preprocessing_audit.csv",
+      "kind": "audit",
+      "note": "Per dataset row counts after parsing and target clipping"
+    },
+    {
+      "path": "figures/fig_corpus_assembly.png",
+      "kind": "figure",
+      "note": "Corpus assembly, source composition and pH provenance"
+    },
+    {
+      "path": "data/descriptors.npy",
+      "kind": "array",
+      "note": "(8393, 217)"
+    },
+    {
+      "path": "data/fingerprints.npy",
+      "kind": "array",
+      "note": "(8393, 2048)"
+    },
+    {
+      "path": "data/master_table.csv",
+      "kind": "table",
+      "note": "8393 rows, deduplicated by (canonical_smiles, metal)"
+    },
+    {
+      "path": "figures/fig03_target_distribution_harmonised.png",
+      "kind": "figure",
+      "note": "Harmonised target distribution after scoping"
+    },
+    {
+      "path": "figures/fig_condition_coverage.png",
+      "kind": "figure",
+      "note": "Condition coverage across medium, technique and substrate"
+    },
+    {
+      "path": "figures/fig04_pipeline_architecture.png",
+      "kind": "figure",
+      "note": "Pipeline architecture diagram"
+    },
+    {
+      "path": "figures/fig_framework.png",
+      "kind": "figure",
+      "note": "Revised pipeline framework"
+    },
+    {
+      "path": "figures/fig05_mutual_information.png",
+      "kind": "figure",
+      "note": "Top 30 descriptors by mutual information"
+    },
+    {
+      "path": "figures/fig05_mutual_information.png",
+      "kind": "figure",
+      "note": "Top 30 descriptors by mutual information"
+    },
+    {
+      "path": "metrics/feature_importance.csv",
+      "kind": "metric",
+      "note": "Mutual information and RF importance ranking for descriptors"
+    },
+    {
+      "path": "figures/fig06_descriptor_correlation.png",
+      "kind": "figure",
+      "note": "Correlation heatmap among top descriptors"
+    },
+    {
+      "path": "data/fold_indices.npy",
+      "kind": "data",
+      "note": "Fold indices shared by every model"
+    },
+    {
+      "path": "metrics/split_leakage_audit.csv",
+      "kind": "metric",
+      "note": "Structural leakage by split scheme"
+    },
+    {
+      "path": "figures/fig_split_leakage.png",
+      "kind": "figure",
+      "note": "Structural leakage by split scheme"
+    },
+    {
+      "path": "metrics/classical_results.csv",
+      "kind": "metric",
+      "note": "Classical model results across representations and splits"
+    },
+    {
+      "path": "metrics/classical_results.csv",
+      "kind": "metric",
+      "note": "Classical model results across representations and splits"
+    },
+    {
+      "path": "figures/fig_context_contribution.png",
+      "kind": "figure",
+      "note": "Contribution of the experimental conditions"
+    },
+    {
+      "path": "metrics/classical_tuning.json",
+      "kind": "tuning",
+      "note": "Best classical model = random_forest"
+    },
+    {
+      "path": "figures/fig07_shap_summary.png",
+      "kind": "figure",
+      "note": "SHAP global summary for the tuned classical model"
+    },
+    {
+      "path": "attributions/fig08_ig_atom_saliency.png",
+      "kind": "figure",
+      "note": "Integrated gradients on MPNN"
+    },
+    {
+      "path": "attributions/fig09_attention_rollout.png",
+      "kind": "figure",
+      "note": "Attention rollout"
+    },
+    {
+      "path": "figures/fig10_conformal_intervals.png",
+      "kind": "figure",
+      "note": "Conformal intervals"
+    },
+    {
+      "path": "models/tuned_classical.joblib",
+      "kind": "model",
+      "note": "random_forest tuned"
+    },
+    {
+      "path": "models/scaler.joblib",
+      "kind": "transformer",
+      "note": "StandardScaler fit on full data"
+    },
+    {
+      "path": "metrics/final_results.csv",
+      "kind": "metric",
+      "note": "Final consolidated results across all model families"
+    },
+    {
+      "path": "metrics/ablation.csv",
+      "kind": "metric",
+      "note": "Cumulative feature-block ablation"
+    },
+    {
+      "path": "figures/fig_ablation.png",
+      "kind": "figure",
+      "note": "Cumulative feature-block ablation"
+    },
+    {
+      "path": "metrics/quantum_ablation.csv",
+      "kind": "metric",
+      "note": "Quantum descriptor ablation"
+    },
+    {
+      "path": "figures/fig_quantum_ablation.png",
+      "kind": "figure",
+      "note": "Quantum descriptor ablation"
+    },
+    {
+      "path": "metrics/quantum_ablation.csv",
+      "kind": "metric",
+      "note": "Quantum descriptor ablation"
+    },
+    {
+      "path": "figures/fig_quantum_ablation.png",
+      "kind": "figure",
+      "note": "Quantum descriptor ablation"
+    },
+    {
+      "path": "metrics/performance_by_medium.csv",
+      "kind": "metric",
+      "note": "Performance disaggregated by medium"
+    },
+    {
+      "path": "metrics/performance_by_metal.csv",
+      "kind": "metric",
+      "note": "Performance disaggregated by metal"
+    },
+    {
+      "path": "metrics/performance_by_alloy.csv",
+      "kind": "metric",
+      "note": "Performance disaggregated by alloy"
+    },
+    {
+      "path": "metrics/performance_by_method.csv",
+      "kind": "metric",
+      "note": "Performance disaggregated by method"
+    },
+    {
+      "path": "figures/fig_bias_imbalance.png",
+      "kind": "figure",
+      "note": "Imbalance and group-wise bias"
+    },
+    {
+      "path": "figures/fig_noise_floor.png",
+      "kind": "figure",
+      "note": "Replicate spread as a noise floor"
+    },
+    {
+      "path": "metrics/benchmark_full.csv",
+      "kind": "metric",
+      "note": "Full benchmark ledger"
+    },
+    {
+      "path": "metrics/leaderboard.csv",
+      "kind": "metric",
+      "note": "Leaderboard, honest scheme"
+    },
+    {
+      "path": "figures/fig_benchmark.png",
+      "kind": "figure",
+      "note": "Unified benchmark across models and schemes"
+    },
+    {
+      "path": "figures/fig_parity_grid.png",
+      "kind": "figure",
+      "note": "Predicted against observed for every model"
+    },
+    {
+      "path": "metrics/predicted_vs_actual.csv",
+      "kind": "metric",
+      "note": "Out-of-fold predicted against observed, xgboost"
+    },
+    {
+      "path": "figures/fig_pred_vs_actual.png",
+      "kind": "figure",
+      "note": "Predicted against observed, with residual diagnostics"
+    },
+    {
+      "path": "metrics/significance.csv",
+      "kind": "metric",
+      "note": "Paired significance tests between leading models"
+    },
+    {
+      "path": "metrics/published_reproduction.csv",
+      "kind": "metric",
+      "note": "Reproduction of a published protocol under both partitions"
+    },
+    {
+      "path": "figures/fig_published_reproduction.png",
+      "kind": "figure",
+      "note": "Published protocol reproduced and corrected"
+    },
+    {
+      "path": "metrics/literature_comparison.csv",
+      "kind": "metric",
+      "note": "Comparison against published results, protocol by protocol"
+    },
+    {
+      "path": "figures/fig_kinetics.png",
+      "kind": "figure",
+      "note": "Dose response, adsorption isotherm and Arrhenius behaviour"
+    },
+    {
+      "path": "metrics/final_results.csv",
+      "kind": "metric",
+      "note": "All results"
+    }
+  ]
+}
