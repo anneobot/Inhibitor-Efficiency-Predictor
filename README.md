@@ -388,7 +388,7 @@ artefact produced it. Quote the run, the seed and the scheme:
 
 ## Author and supervision
 
-**Anne Sylvanus Obot** — BSc (Ed) (Hons.) (Uyo), MSc (Uyo) · 21/PG/FS/CH/PhD/004
+**Anne Sylvanus Obot**
 Department of Chemistry, Faculty of Physical Sciences, University of Uyo, Akwa Ibom State,
 Nigeria.
 
